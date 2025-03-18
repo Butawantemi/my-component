@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #d9d9d9;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+footer {
+    position: fixed;
+    flex-wrap: wrap;
+    bottom: 0;
+    width: 100%;
+    background-color: #111;
+}
+
+footer .main-content {
+    display: flex;
+}
+
+.main-content .box {
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.box h2 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.box .content {
+    margin: 20px 0 0 0;
+}
+
+.left .content p {
+    text-align: justify;
+}
+
+.left .content .socials {
+    margin: 20px 0 0 0;
+}
+
+.left .content .socials a {
+    padding: 0 2px;
+    
+    text-decoration: none;
+}
+
+.socials a {
+    width: 40px;
+    height: 40px;
+    background: #1a1a1a;
+    line-height: 40px;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.socials a:hover {
+    background-color: #f12020;
+}
